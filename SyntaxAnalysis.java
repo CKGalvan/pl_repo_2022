@@ -10,7 +10,7 @@ class SyntaxAnalysis
     }
     static String analysingSyntax(String output)//
     {
-        String str = "<data_type><identifier><assignment_operator><value><delimeter>";
+        String str = "<data_type><identifier><assignment_operator><value><delimiter>";
         String str1 = "<data_type><identifier><delimiter>";
         output = output.replace(" ", "");
         String ver = "";
